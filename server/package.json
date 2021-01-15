@@ -1,0 +1,30 @@
+{
+  "name": "routes",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "off_depr": "sls offline local-authorizers",
+    "off": "sls offline"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "bcryptjs": "^2.4.3",
+    "date-fns": "^2.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash.chunk": "^4.2.0",
+    "lodash.isequal": "^4.5.0",
+    "lodash.omit": "^4.5.0",
+    "lodash.pick": "^4.4.0",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/lodash.chunk": "^4.2.6",
+    "@types/lodash.isequal": "^4.5.5",
+    "@types/lodash.omit": "^4.5.0",
+    "@types/lodash.pick": "^4.4.6",
+    "@types/xml2js": "^0.4.6",
+    "serverless-offline": "^6.8.0"
+  }
+}

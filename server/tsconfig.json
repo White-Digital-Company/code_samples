@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "lib": ["es2019"],
+    "removeComments": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "target": "es2017",
+    "outDir": "lib",
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@libs/*": ["../../../libs/*"],
+      "@depots/*": ["../../depots/src/*"],
+      "@auth/*": ["../../auth/src/*"],
+      "@routes/*": ["../../routes/src/*"],
+      "@orders/*": ["../../orders/src/*"]
+    }
+  },
+  "include": ["./**/*.ts"],
+  "exclude": [
+    "node_modules/**/*",
+    ".serverless/**/*",
+    ".webpack/**/*",
+    "_warmup/**/*",
+    ".vscode/**/*"
+  ]
+}
